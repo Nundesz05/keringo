@@ -12,10 +12,10 @@
       <VBox alignment="TOP_CENTER" prefWidth="100.0" spacing="5.0">
          <children>
             <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Start" />
-            <Slider majorTickUnit="5.0" max="11.0" min="1.0" minorTickCount="4" value="1.0" />
-            <Label text="Speed: 1" />
-            <Slider max="300.0" min="32.0" value="200.0" />
-            <Label text="Radius: 200" />
+            <Slider fx:id="sdSpeed" majorTickUnit="5.0" max="11.0" min="1.0" minorTickCount="4" value="1.0" />
+            <Label fx:id="lbSpeed" text="Speed: 1" />
+            <Slider fx:id="sdRadius" max="300.0" min="32.0" value="200.0" />
+            <Label fx:id="lbRadius" text="Radius: 200" />
             <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@ball1.png" />
